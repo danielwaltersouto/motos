@@ -7,6 +7,9 @@ namespace motos
     public abstract class MotoConstructor
     {
 
+       
+
+
         public abstract void ColocarRueda();
         public abstract void ColocarMotor();
         public abstract void ColocarChasis();

@@ -29,7 +29,7 @@ namespace motos
         }
         public override void MostrarProducto()
         {
-            throw new NotImplementedException();
+            Moto moto = new Moto(rueda, motor, chasis);
         }
     }
 }

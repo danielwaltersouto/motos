@@ -17,5 +17,14 @@ namespace motos
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MotoConstructor P1 = new Scooter();
+            Fabrica fab = new Fabrica();
+            fab.Fabricar(P1);
+
+
+
+        }
     }
 }

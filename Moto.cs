@@ -20,8 +20,11 @@ namespace motos
             _chasis = chasis;
 
         
+
         }
     
+
+
 
     
     }

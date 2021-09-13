@@ -6,15 +6,18 @@ namespace motos
 {
      class Fabrica
     {
-        
-        public void  Fabricar(MotoConstructor motoConstructor)
+
+       
+
+        public void Fabricar(MotoConstructor motoConstructor)
         {
 
             motoConstructor.ColocarChasis();
             motoConstructor.ColocarMotor();
             motoConstructor.ColocarRueda();
-            motoConstructor.MostrarProducto();  
-            
+
+            motoConstructor.MostrarProducto();
+
 
         }
     }
